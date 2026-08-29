@@ -72,8 +72,8 @@ export default function Footer() {
 
           <div style={{ display: 'flex', gap: '1.5rem' }}>
             {[
-              { label: 'GITHUB', href: 'https://github.com/anshikakhandelwal' },
-              { label: 'LINKEDIN', href: 'https://linkedin.com/in/anshikakhandelwal' },
+              { label: 'GITHUB', href: 'https://github.com/Anshikakhandelwall' },
+              { label: 'LINKEDIN', href: 'https://www.linkedin.com/in/anshika-khandelwal-206898307' },
             ].map(link => (
               <a
                 key={link.label}

@@ -23,13 +23,13 @@ function buildCommands(close: () => void): Command[] {
     { label: 'Go to Contact', description: 'Get in touch', action: () => scrollTo('contact') },
     {
       label: 'Open GitHub',
-      description: 'github.com/anshikakhandelwal',
-      action: () => { close(); window.open('https://github.com/anshikakhandelwal', '_blank'); },
+      description: 'github.com/anshikakhandelwal',       
+      action: () => { close(); window.open('https://github.com/Anshikakhandelwall', '_blank'); },
     },
     {
       label: 'Open LinkedIn',
       description: 'Connect on LinkedIn',
-      action: () => { close(); window.open('https://linkedin.com/in/anshikakhandelwal', '_blank'); },
+      action: () => { close(); window.open('https://www.linkedin.com/in/anshika-khandelwal-206898307', '_blank'); },
     },
     {
       label: 'Back to top',
