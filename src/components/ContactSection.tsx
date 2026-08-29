@@ -54,9 +54,9 @@ export default function ContactSection() {
             <p className="section-label" style={{ marginBottom: '1.5rem' }}>FIND ME AT</p>
             <div style={{ display: 'flex', flexDirection: 'column', gap: '0' }}>
               {[
-                { label: 'GITHUB', href: 'https://github.com/anshikakhandelwal', sub: '@anshikakhandelwal' },
-                { label: 'LINKEDIN', href: 'https://linkedin.com/in/anshikakhandelwal', sub: 'Anshika Khandelwal' },
-                { label: 'EMAIL', href: 'mailto:anshika@example.com', sub: '[ADD EMAIL]' },
+                { label: 'GITHUB', href: 'https://github.com/Anshikakhandelwall', sub: '@Anshikakhandelwall' },
+                { label: 'LINKEDIN', href: 'https://www.linkedin.com/in/anshika-khandelwal-206898307', sub: 'Anshika Khandelwal' },
+                { label: 'EMAIL', href: 'anshikakhandelwal911@gmail.com', sub: 'anshikakhandelwal' },
               ].map(link => (
                 <a
                   key={link.label}
